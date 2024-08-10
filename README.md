@@ -2,6 +2,25 @@
 
 This repository contains a Generative Adversarial Network (GAN) implemented in TensorFlow/Keras to generate synthetic images of handwritten digits using the MNIST dataset. The project demonstrates the application of advanced machine learning techniques, focusing on the interaction between a generator and a discriminator through adversarial training.
 
+## Results and Applications
+
+### After 1000 Epochs
+![1000](https://github.com/user-attachments/assets/7d12dd83-0316-4a79-bef7-35d3f6433187)
+
+### After 2000 Epochs
+![2000](https://github.com/user-attachments/assets/cbaa9836-4c7e-487b-b644-ce3b4b3a9996)
+
+
+### After 10000 Epochs
+![10000 epochs](https://github.com/user-attachments/assets/982e55df-c394-4067-8bb1-ef92e971851f)
+
+
+The GAN successfully learns to generate realistic handwritten digits after sufficient training epochs. The resulting model has potential applications in data augmentation, where synthetic data can be used to supplement real datasets, improving the performance of other machine learning models.
+
+**Generated Images:**
+    Images are saved at intervals during training and stored in the working directory.
+
+
 ## Project Overview
 
 The project explores the use of GANs to generate images that resemble the MNIST dataset's handwritten digits. The GAN consists of two main components:
@@ -57,23 +76,6 @@ The project explores the use of GANs to generate images that resemble the MNIST 
 3. **Physics-Informed Constraints:**  
    - Though not included in the basic implementation, this project can be extended by incorporating constraints that enforce adherence to certain physical laws or properties within the generated images.
 
-## Results and Applications
-
-### After 1000 Epochs
-![1000](https://github.com/user-attachments/assets/7d12dd83-0316-4a79-bef7-35d3f6433187)
-
-### After 2000 Epochs
-![2000](https://github.com/user-attachments/assets/cbaa9836-4c7e-487b-b644-ce3b4b3a9996)
-
-
-### After 10000 Epochs
-![10000 epochs](https://github.com/user-attachments/assets/982e55df-c394-4067-8bb1-ef92e971851f)
-
-
-The GAN successfully learns to generate realistic handwritten digits after sufficient training epochs. The resulting model has potential applications in data augmentation, where synthetic data can be used to supplement real datasets, improving the performance of other machine learning models.
-
-**Generated Images:**
-    Images are saved at intervals during training and stored in the working directory.
 
 ## Future Work
 
